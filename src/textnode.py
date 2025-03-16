@@ -1,7 +1,6 @@
 from enum import Enum
 
 class TextType(Enum):
-    AIR_BENDER = "air"
-    WATER_BENDER = "water"
-    EARTH_BENDER = "earth"
-    FIRE_BENDER = "fire"
+    PLAIN_TEXT = "plain_text"  # Represents normal text
+    BOLD = "bold_text" 
+    ITALIC = 
