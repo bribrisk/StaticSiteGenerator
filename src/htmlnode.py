@@ -9,4 +9,6 @@ class HTMLNode:
         raise NotImplementedError
     
     def props_to_html(self):
-        pass
+        prop_href = self.props["href"]
+        prop_target = self.props["target"]
+        prop_string = f" href={prop_href} target={prop_target}"
